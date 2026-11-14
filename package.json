@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write app postcss.config.mjs"
   },
   "dependencies": {
     "next": "^16.0.0",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.5",
+    "prettier": "^3.10.1",
     "tailwindcss": "^4.3.5"
   }
 }
